@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.devdungeon.com.RssFeedReader;
+package com.devdungeon.RssFeedReader;
 
 import javax.swing.UIManager;
 
