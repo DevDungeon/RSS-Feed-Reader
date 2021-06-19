@@ -36,7 +36,7 @@ public class SysTrayIcon {
             return;
         }
         final SystemTray tray = SystemTray.getSystemTray();
-        final TrayIcon trayIcon = new TrayIcon(createImage("/logos/lettermark-64x64.png", "RSS Feed Reader"));
+        final TrayIcon trayIcon = new TrayIcon(createImage("/logos/devdungeon_lettermark_64x64.png", "RSS Feed Reader"));
         trayIcon.setImageAutoSize(true);
         
         // Create a popup menu components
