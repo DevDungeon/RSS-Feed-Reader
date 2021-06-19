@@ -85,7 +85,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.devdungeon.apps.RssFeedReader.Main</mainClass>
+                            <mainClass>com.devdungeon.RssFeedReader.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
