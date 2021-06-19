@@ -1,4 +1,4 @@
-package com.devdungeon.com.RssFeedReader;
+package com.devdungeon.RssFeedReader;
 
 
 /**
