@@ -1,9 +1,31 @@
-DevDungeon Project
-==================
+# RSS Feed Reader
 
-This is a Java project by DevDungeon.com. Written in Java.
+Desktop app with a system tray icon that notifies you when
+there are new items in your RSS feeds.
 
-[![Maven metadata URI](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/com/devdungeon/apps/RssFeedReader/maven-metadata.xml.svg)]()
+## Prerequisites
+
+To build the project, you will need a [Java JDK](https://adoptopenjdk.net/) and [Maven](https://maven.apache.org/).
+
+## Getting started
+
+
+To build the project:
+
+- Clone the source code
+- Execute the `package` target with Maven
+- Run the `RssFeedReader*.jar` file output in the `target/` directory.
+
+For example:
+
+```bash
+git clone git@github.com:DevDungeon/RSS-Feed-Reader.git
+cd RSS-Feed-Reader
+mvn package
+java -jar ./target/RssFeedReader-1.0-SNAPSHOT.jar  # Or whatever version it is
+```
+
+
 
 To do
 -----
@@ -15,21 +37,7 @@ To do
 - Update dependency versions in pom.xml
 - Delete icons/images if they are not needed (console apps)
 
-Features
--------
-
-* x
-* y
-* z
-
-
-Running
--------
-
-    java -jar <file>
-
-
 Contact
 -------
 
-NanoDano <nanodano@devdungeon.com>
+Email or XMPP: NanoDano <nanodano@devdungeon.com>
